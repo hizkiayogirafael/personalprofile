@@ -466,11 +466,11 @@ const Landingpage = () => {
           </a>
           {/* instagram */}
           <a
-            href="https://www.instagram.com/yogi.rafael/"
+            href="https://www.instagram.com/rafaellhizkia/"
             className="text-white bg-[#242222] w-auto py-1 rounded-md px-2 flex flex-row  items-center gap-1 justify-center"
           >
             <RiInstagramFill />
-            yogi.rafael
+            rafaellhizkia
           </a>
         </div>
       </div>
