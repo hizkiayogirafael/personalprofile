@@ -103,27 +103,27 @@ const Landingpage = () => {
       <div className="w-full h-[720px] bg-black flex flex-col pt-5 lg:pt-20 lg:h-[1400px]">
         {/* skillset1 */}
         <div className="w-full flex text-white font-poppins justify-center gap-2 px-4 pb-3 lg:justify-center lg:gap-2">
-          <button className="bg-white py-1 px-3 rounded-2xl  text-black font-medium lg:text-[30px] lg:px-10 lg:rounded-[30px]">
+          <a className="flex items-center bg-white py-1 px-3 rounded-2xl  text-black font-medium lg:text-[30px] lg:px-10 lg:rounded-[30px]">
             Design
-          </button>
-          <button className="outline outline-white px-3 rounded-2xl lg:text-[30px] lg:px-10 lg:rounded-[30px]">
+          </a>
+          <a className="outline outline-white px-3 rounded-2xl lg:text-[30px] lg:px-10 lg:rounded-[30px] flex items-center">
             Web Dev
-          </button>
-          <button className="bg-white px-3 rounded-2xl text-black font-medium lg:text-[30px] lg:px-10 lg:rounded-[30px]">
+          </a>
+          <a className="bg-white px-3 rounded-2xl text-black font-medium lg:text-[30px] lg:px-10 lg:rounded-[30px] flex items-center">
             Front End
-          </button>
+          </a>
         </div>
         {/* skillset2 */}
-        <div className="w-full flex text-white font-poppins justify-between px-4 mb-5 lg:justify-center lg:gap-2">
-          <button className="outline outline-white px-2 rounded-2xl py-1 lg:text-[30px] lg:px-10 lg:rounded-[30px]">
+        <div className="w-full flex text-white font-poppins justify-center px-4 mb-5 gap-2 lg:gap-2">
+          <a className="outline outline-white px-2 rounded-2xl py-1 lg:text-[30px] lg:px-10 lg:rounded-[30px] flex items-center">
             User Interface
-          </button>
-          <button className="bg-white px-4 rounded-2xl text-black font-medium lg:text-[30px] lg:px-10 lg:rounded-[30px]">
+          </a>
+          <a className="bg-white px-4 rounded-2xl text-black font-medium lg:text-[30px] lg:px-10 lg:rounded-[30px] flex items-center">
             Tech
-          </button>
-          <button className="outline outline-white px-2 rounded-2xl lg:text-[30px] lg:px-10 lg:rounded-[30px]">
+          </a>
+          <a className="outline outline-white px-2 rounded-2xl lg:text-[30px] lg:px-10 lg:rounded-[30px] flex items-center">
             User Experience
-          </button>
+          </a>
         </div>
         <h1 className="text-white text-[15px] font-poppins font-medium flex justify-center mb-3 lg:pt-16 lg:text-[50px]">
           ● Recently Experience.
