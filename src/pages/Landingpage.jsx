@@ -26,6 +26,7 @@ import { PiContactlessPayment } from "react-icons/pi";
 import { MdPhoneIphone } from "react-icons/md";
 import { TbBrandGmail } from "react-icons/tb";
 import { RiInstagramFill } from "react-icons/ri";
+import { TbWorldShare } from "react-icons/tb";
 
 const Landingpage = () => {
   return (
@@ -55,9 +56,9 @@ const Landingpage = () => {
       <div className="flex flex-row h-[200px] bg-gradient-to-b from-[#0F3E85] to-black w-[100%] items-center lg:h-[500px]">
         {/* introduce */}
         <div className="font-poppins text-white flex flex-col w-[60%] pl-6 lg:px-[50px] lg:pl-[70px] lg:w-[70%]">
-          <div className="flex flex-row gap-2 mb-1 items-center lg:gap-5">
-            <span className="flex px-4 h-[12px] outline outline-2 rounded-xl lg:outline-[10px] lg:justify-center lg:h-[50px] lg:px-[60px] lg:rounded-[60px]"></span>
-            <h1 className="text-[15px] font-medium lg:text-[80px] lg:font-bold">
+          <div className="flex flex-row gap-2 mb-1 items-center">
+            <h1 className="text-[15px] gap-1 font-medium lg:text-[80px] lg:font-bold flex flex-row items-center">
+              <TbWorldShare />
               Let Me Introduce..
             </h1>
           </div>
@@ -101,12 +102,12 @@ const Landingpage = () => {
       {/* Layout 5 */}
       <div className="w-full h-[720px] bg-black flex flex-col pt-5 lg:pt-20 lg:h-[1400px]">
         {/* skillset1 */}
-        <div className="w-full flex text-white font-poppins justify-between px-4 pb-3 lg:justify-center lg:gap-2">
-          <button className="bg-white py-1 px-3 rounded-2xl text-black font-medium lg:text-[30px] lg:px-10 lg:rounded-[30px]">
+        <div className="w-full flex text-white font-poppins justify-center gap-2 px-4 pb-3 lg:justify-center lg:gap-2">
+          <button className="bg-white py-1 px-3 rounded-2xl  text-black font-medium lg:text-[30px] lg:px-10 lg:rounded-[30px]">
             Design
           </button>
           <button className="outline outline-white px-3 rounded-2xl lg:text-[30px] lg:px-10 lg:rounded-[30px]">
-            Web Development
+            Web Dev
           </button>
           <button className="bg-white px-3 rounded-2xl text-black font-medium lg:text-[30px] lg:px-10 lg:rounded-[30px]">
             Front End
