@@ -466,7 +466,7 @@ const Landingpage = () => {
           </a>
           {/* instagram */}
           <a
-            href=""
+            href="https://www.instagram.com/yogi.rafael/"
             className="text-white bg-[#242222] w-auto py-1 rounded-md px-2 flex flex-row  items-center gap-1 justify-center"
           >
             <RiInstagramFill />
