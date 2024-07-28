@@ -293,9 +293,11 @@ const Landingpage = () => {
               />
               <p className="text-white font-poppins text-justify text-[9px] px-4 pt-2 lg:text-[16px]">
                 <span className="font-semibold text-[#2172FF]">PlanAHead</span>{" "}
-                - A website that reaches a wide range of users to make it easier
-                to find information about the latest concerts or music festivals
-                and digital ticket marketing that prioritizes user comfort and
+                - is a website that helps users organize schedules and increase
+                their productivity through an effective and easy-to-use website,
+                by providing features that allow users to create to-do lists,
+                create a shared management framework or commonly called scrum,
+                schedule activities, to analysis to monitor user progress
                 safety.
               </p>
             </div>
@@ -308,10 +310,10 @@ const Landingpage = () => {
               />
               <p className="text-white font-poppins text-justify text-[9px] px-4 pt-2 lg:text-[16px]">
                 <span className="font-semibold text-[#1B708D]">Meddy</span> - A
-                website that reaches a wide range of users to make it easier to
-                find information about the latest concerts or music festivals
-                and digital ticket marketing that prioritizes user comfort and
-                safety.
+                is a website that provides accurate and reliable information
+                about medicines. Meddy also helps make it easier and more
+                efficient to find information as well as monitor and regulate
+                drug consumption properly and correctly..
               </p>
             </div>
             {/* project 4 */}
@@ -323,10 +325,10 @@ const Landingpage = () => {
               />
               <p className="text-white font-poppins text-justify text-[9px] px-4 pt-2 lg:text-[16px]">
                 <span className="font-semibold text-[#EA466D]">ILventory</span>{" "}
-                - A website that reaches a wide range of users to make it easier
-                to find information about the latest concerts or music festivals
-                and digital ticket marketing that prioritizes user comfort and
-                safety.
+                - is designed to manage stock of goods, the process of borrowing
+                and returning goods, and monitoring the status of goods in
+                real-time. This system can be used by Clients or Borrowers and
+                Admins or Goods Managers.
               </p>
             </div>
           </div>
